@@ -4,4 +4,4 @@ This workshop shows you how to build a sample Web Application that demonstrates 
 
 ## License Summary
 
-This sample code is made available under a modified MIT license. See the LICENSE file.
+This sample code is made available under a modified MIT license. See the LICENSE file. 
