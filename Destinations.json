@@ -1,0 +1,59 @@
+{
+    "AppSync-Destinations": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S":"a5210bf8-3642-40ac-b68a-05fe0ac0xxxx"},
+                    "city": {"S":"New York"},
+                    "state": {"S":"New York"},
+                    "zip": {"S":"10118"},
+                    "description": {"S":"Empire State Building"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S":"b7214nf8-4242-40nc-b68a-15f212xxxxx"},
+                    "city": {"S":"Orlando"},
+                    "state": {"S":"Florida"},
+                    "zip": {"S":"32830"},
+                    "description": {"S":"Disney World"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S":"c3114nf8-5212-30nc-3d8a-yhf21cxxxxx"},
+                    "city": {"S":"Paradise"},
+                    "state": {"S":"Nevada"},
+                    "zip": {"S":"89109"},
+                    "description": {"S":"Las Vegas Strip"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S":"d5113ma8-5512-60yc-3a5a-whf21zxxxxx"},
+                    "city": {"S":"Philadelphia"},
+                    "state": {"S":"Pennsylvania"},
+                    "zip": {"S":"19106"},
+                    "description": {"S":"Liberty Bell"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {"S":"e7813kl8-8512-61cc-2q5a-poc33cxxxxx"},
+                    "city": {"S":"Yellowstone"},
+                    "state": {"S":"Wyoming"},
+                    "zip": {"S":"82190"},
+                    "description": {"S":"Yellowstone National Park"}
+                }
+            }
+        }
+    ]
+}
