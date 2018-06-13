@@ -4,6 +4,7 @@ This workshop shows you how easy it is to build a data driven web applications a
 
 You will host your web application's static assets on Amazon S3 and use S3 to deliver the web application to your users. The application will integrate with AWS AppSync to provide real-time data from multiple data sources via GraphQL technology. Destination data will be stored in Amazon DynamoDB and AWS Lambda will query for real time weather information. AppSync will make it easy to access this data and provide the exact information our application needs.
 
+<<<<<<< HEAD
 The application architecture uses [Amazon S3](https://aws.amazon.com/s3/) to host the static web resources including our ReactJS based frontend (HTML, CSS, JavaScript, and image files). The application is loaded by the user's browser and interacts with our API layer built using, [AWS AppSync](https://aws.amazon.com/appsync/). AppSync provides realtime query capability to search for the list of travel destinations stored in [Amazon DynamoDB](https://aws.amazon.com/dynamodb/). AppSync makes it easy to combine data from [AWS Lambda](https://aws.amazon.com/lambda/) to provide realtime weather information for each destination.
 
 See the diagram below for a depiction of the complete architecture:
@@ -326,3 +327,7 @@ description:"Space Needle"
 You should see the new *Space Needle* destination populate in your browser:
 
 ![Upload screenshot](images/Step6.2.png)
+
+## License Summary
+
+This sample code is made available under a modified MIT license. See the LICENSE file. 
