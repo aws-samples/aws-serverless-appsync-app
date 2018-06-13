@@ -123,7 +123,7 @@ We will be using DynamoDB and Lambda as our data sources
 - On the left pane, select **Schema**.
 - Copy and paste the following into the Schema editor and click **Save**:
 
-```json
+```js
 type Destination {
 	id: ID!
 	description: String!
