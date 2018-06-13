@@ -186,7 +186,7 @@ schema {
 - For the *Data source name* choose **WeatherConditions**.
 - In the *Configure request mapping template* box, enter the following JSON in the box:
 
-```json
+```js
 {
     "version" : "2017-02-28",
     "operation": "Invoke",
