@@ -1,5 +1,9 @@
 # Serverless Web Application with AppSync Workshop
 
+<a href="https://www.youtube.com/watch?v=sQN28Jo-nak" target="_blank"><img src="images/twitch.png" align="center" width="500" alt="Serverless Bytes | Building a Serverless GraphQL App"></a>
+<br />
+Follow along this workshop on <a href="https://www.youtube.com/watch?v=sQN28Jo-nak" target="_blank">YouTube</a>.
+
 This workshop shows you how easy it is to build a data driven web applications all with no servers. You will build a serverless web application that lets users search for popular tourist destinations. The application will provide real-time weather analysis of the indexed destinations.
 
 You will host your web application's static assets on Amazon S3 and use S3 to deliver the web application to your users. The application will integrate with AWS AppSync to provide real-time data from multiple data sources via GraphQL technology. Destination data will be stored in Amazon DynamoDB and AWS Lambda will query for real time weather information. AppSync will make it easy to access this data and provide the exact information our application needs.
