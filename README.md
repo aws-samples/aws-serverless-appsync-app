@@ -103,7 +103,7 @@ Right click your function and select **Deploy**
 Open the AWS AppSync Console and click  **Create API**. Choose **Build from Scratch** and click **Start**.
 Enter a name for your API and click **Create**
 
-On the next screen, scroll down to the "Integrate your app" section download your *aws-exports.js* config file. Choose the **Javascript** tab and click **Download Config**. Move this file into your ./src directory.
+On the next screen, scroll down to the "Integrate your app" section and download your *aws-exports.js* config file. Choose the **Javascript** tab and click **Download Config**. You will save this file into your ./src directory later.
 
 ![Upload screenshot](images/Step3.1.png)
 
@@ -218,7 +218,7 @@ Your configuration should look similar to this:
 
 ### Step 4: Implement your ReactJS web front end
 Switch back to the AWS Cloud9 IDE.
-Upload the *AppSync.js* file you downloaded in the previous step to your Cloud9 workspace
+Upload the *aws-exports.js* file you downloaded in the previous step to your Cloud9 workspace
 
 Create your ReactJS project (this step will take a few minutes):
 
@@ -249,7 +249,7 @@ Under the */my-destination-app/src* folder create a **Components** folder and a 
 Drag and drop files you downloaded into *src* as follows:
 
     App.js
-    AppSync.js
+    aws-exports.js
     Components
         AddDestination.jsx
         AllDestinations.jsx
