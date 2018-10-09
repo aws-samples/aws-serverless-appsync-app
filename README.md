@@ -100,9 +100,10 @@ Right click your function and select **Deploy**
 
 ### Step 3: Create your AppSync API backend
 
-Open the AWS AppSync Console and click  **Create API**
-Enter a name for your API. Choose *Custom schema* and click **Create**
-On the next screen, download your *AppSync.js* config file. Choose the **Web** tab and click **Download**
+Open the AWS AppSync Console and click  **Create API**. Choose **Build from Scratch** and click **Start**.
+Enter a name for your API and click **Create**
+
+On the next screen, scroll down to the "Integrate your app" section download your *aws-exports.js* config file. Choose the **Javascript** tab and click **Download Config**. Move this file into your ./src directory.
 
 ![Upload screenshot](images/Step3.1.png)
 

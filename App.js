@@ -12,7 +12,7 @@ import { Rehydrated } from 'aws-appsync-react';
 import { AUTH_TYPE } from "aws-appsync/lib/link/auth-link";
 import { graphql, ApolloProvider, compose } from 'react-apollo';
 import * as AWS from 'aws-sdk';
-import AppSync from './AppSync.js';
+import AppSync from './aws-exports.js';
 import AllDestinationsQuery from './Queries/AllDestinationsQuery';
 import NewDestinationMutation from './Queries/NewDestinationMutation';
 
