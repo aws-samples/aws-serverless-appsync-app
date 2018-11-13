@@ -17,11 +17,11 @@ import AllDestinationsQuery from './Queries/AllDestinationsQuery';
 import NewDestinationMutation from './Queries/NewDestinationMutation';
 
 const client = new AWSAppSyncClient({
-  url: AppSync.graphqlEndpoint,
-  region: AppSync.region,
+  url: AppSync.aws_appsync_graphqlEndpoint,
+  region: AppSync.aws_appsync_region,
   auth: {
       type: AUTH_TYPE.API_KEY,
-      apiKey: AppSync.apiKey,
+      apiKey: AppSync.aws_appsync_apiKey,
 
       // type: AUTH_TYPE.AWS_IAM,
       // Note - Testing purposes only
